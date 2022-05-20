@@ -34,6 +34,7 @@ libcutils_common_sources := \
         strdup8to16.c \
         strlcpy.c \
         threads.c \
+	list_extern.c \
 
 # some files must not be compiled when building against Mingw
 # they correspond to features not used by our host development tools
